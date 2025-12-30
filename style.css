@@ -1,0 +1,119 @@
+/* ----------------- Sidebar ----------------- */
+.sidebar {
+    margin-left: 600px; 
+    position: absolute; 
+    top: 0; 
+    right: 0;
+}
+
+/* ----------------- Body ----------------- */
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #A1937E;   /* soft warm beige */
+    color: #301413;               /* deep brown text */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+/* ----------------- Headings ----------------- */
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #ffffff;               /* Maroon Oak */
+}
+
+h2, h3, h4 {
+    font-family: Arial, sans-serif;
+    color: #ffffff;               /* Brown Derby */
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+h4 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* ----------------- Paragraphs ----------------- */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #020101;               /* Seal Brown */
+}
+
+/* ----------------- Sections ----------------- */
+section {
+    border: 1px solid #594836;       /* darker brown border */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: #4D1519;       /* Maroon Oak section background */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ----------------- Links ----------------- */
+a {
+    color: #e3c8a8;                  /* warm light brown */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #fff;                      /* highlight on hover */
+    text-decoration: underline;
+}
+
+/* ----------------- Buttons ----------------- */
+.button-link {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #301413;       /* Seal Brown button */
+    color: #e3c8a8;                  /* light text */
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.button-link:hover {
+    background-color: #594836;       /* Brown Derby hover */
+}
+
+/* ----------------- Links Section ----------------- */
+.links { 
+    text-align: center;
+    padding: 3px 0;
+    margin: 10px 0;
+}
+
+.links a + a::before {
+    content: " • ";   
+    padding: 0 8px;
+    color: #e3c8a8;                  /* warm dot color */
+}
+
+.links a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #e3c8a8;
+}
+
+.links a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* ----------------- Optional Small Adjustments ----------------- */
+ul, ol {
+    margin-left: 20px;
+}
